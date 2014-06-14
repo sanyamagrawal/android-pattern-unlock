@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>Android Unlock Pattern</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css"/>
+		<link rel="stylesheet" type="text/css" href="css/button.css"/>
+
+	</head>
+
+<body>
+	<div id="mainContainer">
+		<h3>Please Set your Unlock Code</h3>
+		<div id="errorMessage" class= " hide error"></div>
+
+		<div id="showPattern"></div>
+		<input class="setPatternButton button primary" id="setPattern" type="button " value="Save Pattern" onclick="app.saveLockPattern();" />
+		<input id="checkPattern" class="hide button primary checkPatternButton" type="button" value="Check Pattern" onclick="app.checkPattern();" />
+
+	</div>
+
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
